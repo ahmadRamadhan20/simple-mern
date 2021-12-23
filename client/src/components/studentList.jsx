@@ -34,7 +34,7 @@ export default class StudentList extends Component {
     return (
       <div className="table-wrapper">
         <Table striped bordered hover>
-          <thead>
+          <thead className="mt-5">
             <tr>
               <th>Name</th>
               <th>Email</th>
